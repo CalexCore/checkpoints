@@ -8,7 +8,7 @@
 ### Setup
 
 - Right click [this link](https://github.com/CalexCore/checkpoints/blob/master/checkpoints.csv) and choose `Save link as...` 
-and download the latest checkpoints.csv, or use [this link] (https://github.com/CalexCore/checkpoints/blob/master/checkpoints.tar.gz) 
+and download the latest checkpoints.csv, or use [this link](https://github.com/CalexCore/checkpoints/blob/master/checkpoints.tar.gz) 
 to can get a compressed version which may safe some download time, but needs to be extracted.
 - Place the checkpoints.csv in the same folder as your AmityCoind daemon
 - You can get AmityCoind from here if you don't have it already: [Link](https://github.com/CalexCore/AmityCoin/releases)
@@ -22,7 +22,7 @@ to can get a compressed version which may safe some download time, but needs to 
 - This can easily be done by moving to the TurtleCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
 
 ![Opening cmd](https://i.imgur.com/QoNwYtB.png)
-- Finally, type `AmityCoind.exe --load-checkpointsi=.\checkpoints.csv` in the command prompt.
+- Finally, type `AmityCoind.exe --load-checkpoints=.\checkpoints.csv` in the command prompt.
 
 #### Linux, Apple
 
@@ -81,5 +81,5 @@ If you did the steps correctly, you should see something like this output.
 ```
 
 - If you see output like the above, it means the file isn't present in the directory you are in.
-- Make sure you have placed the checkpoints.csv file in the same directory as AmityCoind. and check the syntax of the parameter 
+- Make sure you have placed the checkpoints.csv file in the same directory as AmityCoind and check the syntax of the added parameter 
 `--load-checkpoints=.\checkpoints.csv`
