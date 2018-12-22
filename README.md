@@ -21,7 +21,7 @@ to can get a compressed version which may safe some download time, but needs to 
 - First, open a command prompt in the same directory as AmityCoind.
 - This can easily be done by moving to the TurtleCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
 
-![Opening cmd](https://i.imgur.com/QoNwYtB.png)
+![Opening cmd](https://imgur.com/a/TMpTlOq)
 - Finally, type `AmityCoind.exe --load-checkpoints=.\checkpoints.csv` in the command prompt.
 
 #### Linux, Apple
@@ -30,7 +30,7 @@ to can get a compressed version which may safe some download time, but needs to 
 - You can use the `cd` command to change to this directory. For example, `cd Downloads/Amity-v0.1.2.346`
 - Alternatively, your file manager may provide the ability to open a terminal in your current directory. Navigate to the folder with AmityCoind in, and try right clicking, to see if you can open a terminal there:
 
-![Opening terminal](https://i.imgur.com/Rd5TmQc.png)
+![Opening terminal]
 
 - Finally, type `./AmityCoind --load-checkpoints=.\checkpoints.csv` in the terminal.
 
