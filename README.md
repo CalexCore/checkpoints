@@ -19,7 +19,7 @@ to can get a compressed version which may safe some download time, but needs to 
 #### Windows
 
 - First, open a command prompt in the same directory as AmityCoind.
-- This can easily be done by moving to the TurtleCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
+- This can easily be done by moving to the AmityCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
 
 ![Opening cmd](https://i.imgur.com/Ua2mfah.jpg)
 - Finally, type `AmityCoind.exe --load-checkpoints=.\checkpoints.csv` in the command prompt.
