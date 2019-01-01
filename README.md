@@ -32,7 +32,7 @@ to can get a compressed version which may safe some download time, but needs to 
 
 ![Opening terminal]
 
-- Finally, type `./AmityCoind --load-checkpoints .\checkpoints.csv` in the terminal.
+- Finally, type `./AmityCoind --load-checkpoints ./checkpoints.csv` in the terminal.
 
 ### Expected Output
 
