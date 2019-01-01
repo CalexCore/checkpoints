@@ -22,7 +22,7 @@ to can get a compressed version which may safe some download time, but needs to 
 - This can easily be done by moving to the AmityCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
 
 ![Opening cmd](https://i.imgur.com/Ua2mfah.jpg)
-- Finally, type `AmityCoind.exe --load-checkpoints=.\checkpoints.csv` in the command prompt.
+- Finally, type `AmityCoind.exe --load-checkpoints .\checkpoints.csv` in the command prompt.
 
 #### Linux, Apple
 
@@ -32,7 +32,7 @@ to can get a compressed version which may safe some download time, but needs to 
 
 ![Opening terminal]
 
-- Finally, type `./AmityCoind --load-checkpoints=.\checkpoints.csv` in the terminal.
+- Finally, type `./AmityCoind --load-checkpoints .\checkpoints.csv` in the terminal.
 
 ### Expected Output
 
@@ -82,4 +82,4 @@ If you did the steps correctly, you should see something like this output.
 
 - If you see output like the above, it means the file isn't present in the directory you are in.
 - Make sure you have placed the checkpoints.csv file in the same directory as AmityCoind and check the syntax of the added parameter 
-`--load-checkpoints=.\checkpoints.csv`
+`--load-checkpoints .\checkpoints.csv`
