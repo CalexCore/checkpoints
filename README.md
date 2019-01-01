@@ -10,6 +10,8 @@
 - Right click [this link](https://github.com/CalexCore/checkpoints/blob/master/checkpoints.csv) and choose `Save link as...` 
 and download the latest checkpoints.csv, or use [this link](https://github.com/CalexCore/checkpoints/blob/master/checkpoints.tar.gz) 
 to can get a compressed version which may safe some download time, but needs to be extracted.
+- You can use "wget" to get the file via commandline on Linux , too. In example use the following syntax 
+` wget -O checkpoints.csv https://raw.githubusercontent.com/CalexCore/checkpoints/master/checkpoints.csv `
 - Place the checkpoints.csv in the same folder as your AmityCoind daemon
 - You can get AmityCoind from here if you don't have it already: [Link](https://github.com/CalexCore/AmityCoin/releases)
 - Make sure you shut down any GUI wallets, or any other instances of AmityCoind.
