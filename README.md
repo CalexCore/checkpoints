@@ -84,4 +84,4 @@ If you did the steps correctly, you should see something like this output.
 
 - If you see output like the above, it means the file isn't present in the directory you are in.
 - Make sure you have placed the checkpoints.csv file in the same directory as AmityCoind and check the syntax of the added parameter 
-`--load-checkpointsi=.\checkpoints.csv`
+`--load-checkpoints=.\checkpoints.csv`
