@@ -24,7 +24,11 @@ to can get a compressed version which may safe some download time, but needs to 
 - This can easily be done by moving to the AmityCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
 
 ![Opening cmd](https://i.imgur.com/Ua2mfah.jpg)
-- Finally, type `AmityCoind.exe --load-checkpoints=.\checkpoints.csv` in the command prompt.
+- Finally, type `AmityCoind.exe --load-checkpoints=.\checkpoints.csv` in the command prompt, 
+and syncing should look simular to the following screenshoti.
+
+![Syncing] (https://i.imgur.com/SfvXoF0.png) 
+#####( thanks for delivering this screenshot zunno )
 
 #### Linux, Apple
 
